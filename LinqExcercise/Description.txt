@@ -1,0 +1,43 @@
+﻿In the following tasks, LINQ / LAMBDA will be used to make selections from lists and
+arrayer. Ex bilar.Where (r => r… ..)
+
+
+ 1. CARS
+Start from an array
+string [] bilar = {"Volvo", "BMW", "Audi", "Skoda", "Toyota", "Ford", "Mercedes", "Seat", "Honda", "Volkswagen", "Opel", "Mazda", "Suzuki"};
+
+a. Bring the car called "Opel" from the array.
+b. Bring out all cars whose names start with "V".
+c. Bring out all cars whose names contain the letters "da".
+d. Bring out all cars that start with "M" or end with "i"
+ 
+2. BAND
+You should now work with this array.
+string [] bands = {"ACDC", "Queen", "Aerosmith", "Iron Maiden", "Megadeth", "Metallica", "Pearl Jam", "Oasis", "Abba", "Blur", "Eurythmics "," Genesis "," INXS "," Midnight Oil "," Kent "," Madness "," Manic Street Preachers "," The Offspring "," Pink Floyd "," Rammstein "," Red Hot Chili Peppers ", "Deep Purple", "U2"}; };
+a. Bring out the band that has the longest band name
+b. Bring out the band with the shortest band name
+c. Find a number of how many bands start with the letter "M"
+d. Make a list of all bands sorted alphabetically. Only show bands that have a band name longer than 6 letters
+e. Create a list that is sorted by the length of the band names. The band with the shortest name should end up first in the list and the one with the longest name should end up last
+ 
+ 
+3. FEATURES
+ 
+Start from this list List integers = new List () {54, 23, 76, 123, 93, 7, 3489, 88};
+a. Retrieve the mean of all numbers without looping through the list.
+b. Bring out the largest of all numbers without looping through the list.
+c. Bring up the least of all numbers without looping through the list.
+d. Calculate the sum of all numbers.
+e. Generate all even numbers without looping through the list
+ 
+ 4. Order by
+Sort by last name (last split "") without using any loop
+string [] nameList = {"Karl Folkesson", "Sven Karlsson", "Greta Blom"};
+ 
+ 5. NEW LIST
+Create a new list from this array where all values ​​are increased by 2, ie the new list becomes 3,5,7,9
+int [] list = {1, 3, 5, 7};
+ 
+ 6. VOICES
+Create a list of all the vowels in the sentence
+string fullText = "Flying snipes seek whila on soft tufts"
